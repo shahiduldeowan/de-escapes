@@ -7,6 +7,14 @@
     --secondary-color: #131318;
     --accent-color: rgba(19, 19, 24, 0.70);
     --accent-light-color: #5A5A5D;
+    --font-size-page-header: 4rem;
+    --font-size-section-header: 2.5rem;
+    --font-size-section-title: 1.5rem;
+    --font-size-price: 1.25rem;
+    --font-size-normal: 1rem;
+    --font-weight-bold: 800;
+    --font-weight-semibold: 700;
+    --font-weight-normal: 400;
 }
 
 * {
