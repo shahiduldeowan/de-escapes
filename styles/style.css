@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
 
-/* font-family: 'Inter', sans-serif; */
-
 :root {
     --primary-color: #FF5400;
     --secondary-color: #131318;
@@ -15,6 +13,8 @@
     --font-weight-bold: 800;
     --font-weight-semibold: 700;
     --font-weight-normal: 400;
+    --font-family-body: 'Mulish', sans-serif;
+    --font-family-inter: 'Inter', sans-serif;
 }
 
 * {
@@ -24,5 +24,5 @@
 }
 
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: var(--font-family-body);
 }
