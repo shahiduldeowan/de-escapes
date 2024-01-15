@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --accent-color: rgba(19, 19, 24, 0.70);
+    --accent-color-light: #5A5A5D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
