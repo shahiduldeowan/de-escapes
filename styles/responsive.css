@@ -1,0 +1,22 @@
+/* For Mobiles */
+@media screen and (max-width: 600px) {
+
+    #navbar {
+        margin: 17px auto;
+    }
+
+    header,
+    main {
+        width: 89.333%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    #navbar .nav-menu-container ul {
+        display: none;
+    }
+
+    #navbar .nav-menu-container .nav-menu-icon-container {
+        display: inline;
+    }
+}

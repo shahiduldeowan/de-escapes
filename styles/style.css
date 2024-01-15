@@ -33,3 +33,67 @@ main {
     max-width: 1170px;
     margin: 0 auto;
 }
+
+/* Navbar Styles Start */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 53px auto;
+}
+
+#navbar .nav-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#navbar .nav-logo-container h3 {
+    font-size: 2.25rem;
+    font-weight: var(--font-weight-bold);
+}
+
+#navbar .nav-logo-container span {
+    color: var(--primary-color);
+}
+
+#navbar .nav-logo-container .img-container {
+    width: 48px;
+    height: 56.008px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .nav-logo-container img {
+    width: 100%;
+}
+
+#navbar .nav-menu-container ul {
+    display: flex;
+    gap: 44px;
+    list-style-type: none;
+}
+
+#navbar .nav-menu-container ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-normal);
+}
+
+#navbar .nav-menu-container ul li a span {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-semibold);
+}
+
+#navbar .nav-menu-container .nav-menu-icon-container {
+    height: 24px;
+    width: 24px;
+    display: none;
+}
+
+#navbar .nav-menu-container .nav-menu-icon-container img {
+    width: 100%;
+}
+
+/* Navbar Styles End */
