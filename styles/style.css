@@ -26,3 +26,10 @@
 body {
     font-family: var(--font-family-body);
 }
+
+header,
+main {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
