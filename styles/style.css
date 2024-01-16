@@ -209,13 +209,35 @@ main {
     margin: 100px auto;
     display: flex;
     gap: 53px;
-    /* border: 2px solid tomato; */
 }
 
 #popular-tours-section .popular-tours-text-container {
     height: 100%;
     width: 50%;
     border: 1px solid green;
+}
+
+#popular-tours-section .popular-tours-text-container h2 {
+    font-size: var(--font-size-section-header);
+    font-weight: var(--font-weight-bold);
+}
+
+#popular-tours-section .popular-tours-text-container p,
+#popular-tours-section .popular-tours-text-container li {
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-normal);
+    margin: 24px 0;
+    color: var(--accent-color);
+    line-height: 26px;
+}
+
+#popular-tours-section .popular-tours-text-container ul {
+    margin-left: 20px;
+}
+
+#popular-tours-section .popular-tours-text-container .popular-tours-description-footer-text {
+    color: var(--accent-light-color);
+    margin-bottom: 46px;
 }
 
 #popular-tours-section .popular-tours-image-container {
