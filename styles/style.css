@@ -225,19 +225,19 @@ main {
 #popular-tours-section .popular-tours-text-container h2 {
     font-size: var(--font-size-section-header);
     font-weight: var(--font-weight-bold);
+    margin-bottom: 24px;
 }
 
 #popular-tours-section .popular-tours-text-container p,
 #popular-tours-section .popular-tours-text-container li {
     font-size: var(--font-size-normal);
     font-weight: var(--font-weight-normal);
-    margin: 24px 0;
     color: var(--accent-color);
     line-height: 26px;
 }
 
 #popular-tours-section .popular-tours-text-container ul {
-    margin-left: 20px;
+    margin: 24px 0 24px 30px;
 }
 
 #popular-tours-section .popular-tours-text-container .popular-tours-description-footer-text {
