@@ -44,6 +44,12 @@ main {
 }
 
 /* Shared Styles */
+h2 {
+    font-size: var(--font-size-section-header);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 24px;
+}
+
 .common-button-style {
     height: 100%;
     width: 100%;
@@ -224,11 +230,6 @@ main {
     width: 50%;
 }
 
-#popular-tours-section .popular-tours-text-container h2 {
-    font-size: var(--font-size-section-header);
-    font-weight: var(--font-weight-bold);
-    margin-bottom: 24px;
-}
 
 #popular-tours-section .popular-tours-text-container p,
 #popular-tours-section .popular-tours-text-container li {
@@ -263,7 +264,5 @@ main {
     background-repeat: no-repeat;
     border-radius: var(--border-radius-primary);
 }
-
-
 
 /* Our Popular Tour Section Styles End */
