@@ -91,6 +91,10 @@
         width: 100%;
     }
 
+    #popular-tours-section .popular-tours-text-container .popular-tours-description-footer-text {
+        margin-bottom: 24px;
+    }
+
     #popular-tours-section .popular-tours-text-container .popular-tours-button-container {
         width: auto;
     }
@@ -105,6 +109,61 @@
     /* Destination Gallery Responsive Section Start */
     #destination-gallery-section {
         margin-bottom: var(--gap-mobile);
+    }
+
+    #destination-gallery-section .destination-text-container .destination-text-description {
+        margin-bottom: 16px;
+        width: 82.333%;
+        max-width: 494px;
+    }
+
+    #destination-gallery-section .destination-gallery-container {
+        gap: 16px;
+    }
+
+    #destination-gallery-section .destination-gallery-container .destination-gallery-item {
+        height: 176px;
+    }
+
+    #destination-gallery-section .destination-gallery-container h4 {
+        font-size: var(--font-size-price);
+        font-weight: var(--font-weight-semibold);
+        color: #FFF;
+    }
+
+    #destination-gallery-section .destination-gallery-container .maldive {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #destination-gallery-section .destination-gallery-container .indonesia {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #destination-gallery-section .destination-gallery-container .sri-lanka {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #destination-gallery-section .destination-gallery-container .north-america {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #destination-gallery-section .destination-gallery-container .kashmir {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #destination-gallery-section .destination-gallery-container .bangladesh {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    #destination-gallery-section .destination-gallery-container .bandarban {
+        grid-column: 1;
+        grid-row: 7;
     }
 
     /* Destination Gallery Responsive Section End */
@@ -165,6 +224,4 @@
 
     /* Popular Tour Responsive Section End */
 
-    /* Destination Gallery Responsive Section Start */
-    /* Destination Gallery Responsive Section End */
 }
