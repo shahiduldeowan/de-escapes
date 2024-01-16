@@ -15,6 +15,12 @@
     --font-weight-normal: 400;
     --font-family-body: 'Mulish', sans-serif;
     --font-family-inter: 'Inter', sans-serif;
+    --border-radius-primary: 16px;
+    --border-radius-secondary: 8px;
+    /* Gradient */
+    --background-gradient-banner: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)100%);
+    /* Background Images */
+    --background-image-banner: url("../images/banner-image.png");
 }
 
 * {
@@ -97,3 +103,47 @@ main {
 }
 
 /* Navbar Styles End */
+
+/* Banner Styles Start */
+#banner-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--background-gradient-banner), var(--background-image-banner);
+    border-radius: var(--border-radius-primary);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+#banner-container h1 {
+    font-size: var(--font-size-page-header);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 24px;
+}
+
+#banner-container p {
+    width: 57.777%;
+    max-width: 676px;
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-normal);
+    line-height: 26px;
+    margin-bottom: 48px;
+    text-align: center;
+
+}
+
+#banner-container .banner-input-container {
+    width: 68.376%;
+    max-width: 800px;
+    height: 84px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: var(--border-radius-secondary);
+
+
+}
+
+/* Banner Styles End */
