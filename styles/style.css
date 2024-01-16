@@ -21,6 +21,7 @@
     --background-gradient-banner: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)100%);
     /* Background Images */
     --background-image-banner: url("../images/banner-image.png");
+    --background-image-popular-tour: url("../images/popular-tour-image.png");
 }
 
 * {
@@ -199,5 +200,34 @@ main {
     object-fit: cover;
 }
 
-
 /* Banner Styles End */
+
+/* Our Popular Tour Section Styles Start */
+#popular-tours-section {
+    height: 550px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    gap: 53px;
+    /* border: 2px solid tomato; */
+}
+
+#popular-tours-section .popular-tours-text-container {
+    height: 100%;
+    width: 50%;
+    border: 1px solid green;
+}
+
+#popular-tours-section .popular-tours-image-container {
+    height: 100%;
+    width: 50%;
+    background-image: var(--background-image-popular-tour);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: var(--border-radius-primary);
+}
+
+
+
+/* Our Popular Tour Section Styles End */
