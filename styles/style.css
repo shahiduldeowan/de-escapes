@@ -24,6 +24,14 @@
     /* Background Images */
     --background-image-banner: url("../images/banner-image.png");
     --background-image-popular-tour: url("../images/popular-tour-image.png");
+    /* Destination Gallery Images */
+    --background-image-destination-gallery-maldive: url("../images/maldive-image.png");
+    --background-image-destination-gallery-indonesia: url("../images/indonesia-image.png");
+    --background-image-destination-gallery-sri-lanka: url("../images/sri-lanka-image.png");
+    --background-image-destination-gallery-north-america: url("../images/north-america-image.png");
+    --background-image-destination-gallery-kashmir: url("../images/kashmir-image.png");
+    --background-image-destination-gallery-bangladesh: url("../images/bangladesh-image.png");
+    --background-image-destination-gallery-bandarban: url("../images/bandarban-image.png");
 }
 
 * {
