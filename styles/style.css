@@ -41,7 +41,7 @@ main {
 }
 
 /* Shared Styles */
-.common-button-color {
+.common-button-style {
     height: 100%;
     width: 100%;
     background-color: var(--primary-color);
