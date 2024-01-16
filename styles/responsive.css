@@ -8,7 +8,7 @@
 
     header,
     main {
-        width: 89.333%;
+        width: 93.333%;
         max-width: 600px;
         margin: 0 auto;
     }
@@ -27,6 +27,39 @@
 
     #navbar .nav-menu-container .nav-menu-icon-container {
         display: inline;
+    }
+
+    /* Banner Responsive */
+    #banner-container {
+        height: 550px;
+    }
+
+    #banner-container h1 {
+        font-size: 1.375rem;
+        margin-bottom: 10px;
+    }
+
+    #banner-container p {
+        width: 94.6428%;
+        max-width: 560px;
+        font-size: 0.875rem;
+        line-height: 21px;
+        margin-bottom: 32px;
+    }
+
+    #banner-container .banner-input-container {
+        width: 91.4285%;
+        max-width: 512px;
+    }
+
+    #banner-container .banner-input-container form {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #banner-container .banner-input-container form .input-container {
+        width: 93.75%;
+        max-width: 480px;
     }
 }
 
@@ -48,4 +81,19 @@
     #navbar .nav-menu-container .nav-menu-icon-container {
         display: inline;
     }
+
+    /* Banner Responsive */
+    #banner-container p {
+        width: 93.413%;
+        max-width: 851px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    #banner-container .banner-input-container {
+        width: 91.2184%;
+        max-width: 831px;
+        /* padding: 16px; */
+    }
+
 }

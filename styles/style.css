@@ -40,6 +40,16 @@ main {
     margin: 0 auto;
 }
 
+/* Shared Styles */
+.common-button-color {
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: var(--border-radius-secondary);
+    border: none;
+}
+
 /* Navbar Styles Start */
 #navbar {
     display: flex;
@@ -133,17 +143,61 @@ main {
     line-height: 26px;
     margin-bottom: 48px;
     text-align: center;
-
 }
 
 #banner-container .banner-input-container {
     width: 68.376%;
     max-width: 800px;
-    height: 84px;
     background-color: rgba(255, 255, 255, 0.30);
     border-radius: var(--border-radius-secondary);
-
-
+    padding: 16px;
 }
+
+#banner-container .banner-input-container form {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-container .banner-input-container form .input-container {
+    width: 25%;
+    max-width: 174px;
+    height: 52px;
+}
+
+#banner-container .banner-input-container form .input-container input,
+#banner-container .banner-input-container form .input-container select {
+    height: 100%;
+    width: 100%;
+    border-radius: var(--border-radius-secondary);
+    border: none;
+    outline: none;
+}
+
+#banner-container .banner-input-container form .input-container input[type="text"],
+#banner-container .banner-input-container form .input-container select {
+    padding: 0 14px;
+    background-color: #fff;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+#banner-container .banner-input-container form .input-container button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-container .banner-input-container form .input-container span {
+    height: 24px;
+    width: 24px;
+}
+
+#banner-container .banner-input-container form .input-container span img {
+    width: 100%;
+    object-fit: cover;
+}
+
 
 /* Banner Styles End */
