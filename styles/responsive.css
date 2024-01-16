@@ -1,6 +1,7 @@
 /* For Mobiles */
 @media screen and (max-width: 600px) {
 
+    /* Navbar responsive */
     #navbar {
         margin: 17px auto;
     }
@@ -32,6 +33,7 @@
 /* For Tablets */
 @media screen and (min-width: 601px) and (max-width: 991px) {
 
+    /* Navbar responsive */
     header,
     main {
         width: 91.92%;
