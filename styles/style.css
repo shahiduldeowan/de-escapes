@@ -58,6 +58,20 @@ h2 {
     margin-bottom: 24px;
 }
 
+.common-paragraph-style {
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-normal);
+    color: var(--accent-color);
+    line-height: 26px;
+}
+
+.common-paragraph-accent-light-color-style {
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-normal);
+    color: var(--accent-light-color);
+    line-height: 26px;
+}
+
 .common-button-style {
     height: 100%;
     width: 100%;
@@ -238,21 +252,11 @@ h2 {
     width: 50%;
 }
 
-
-#popular-tours-section .popular-tours-text-container p,
-#popular-tours-section .popular-tours-text-container li {
-    font-size: var(--font-size-normal);
-    font-weight: var(--font-weight-normal);
-    color: var(--accent-color);
-    line-height: 26px;
-}
-
 #popular-tours-section .popular-tours-text-container ul {
     margin: 24px 0 24px 30px;
 }
 
 #popular-tours-section .popular-tours-text-container .popular-tours-description-footer-text {
-    color: var(--accent-light-color);
     margin-bottom: 46px;
 }
 
@@ -260,7 +264,6 @@ h2 {
     width: 36.25%;
     max-width: 174px;
     height: 52px;
-
 }
 
 #popular-tours-section .popular-tours-image-container {
