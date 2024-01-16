@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
 
 :root {
+    /* Color */
     --primary-color: #FF5400;
     --secondary-color: #131318;
     --accent-color: rgba(19, 19, 24, 0.70);
     --accent-light-color: #5A5A5D;
+
+    /* Gradient */
+    --background-gradient-banner: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)100%);
+
+    /* Section Gap */
+    --gap-desktop: 100px;
+    --gap-mobile: 24px;
+
+    /* Font Size */
     --font-size-page-header: 4rem;
     --font-size-section-header: 2.5rem;
     --font-size-section-tab-header: 2.25rem;
@@ -12,18 +22,22 @@
     --font-size-price: 1.25rem;
     --font-size-normal: 1rem;
     --font-size-phone-normal: 0.875rem;
+
+    /* Font Weight */
     --font-weight-bold: 800;
     --font-weight-semibold: 700;
     --font-weight-normal: 400;
+
+    /* Font Family */
     --font-family-body: 'Mulish', sans-serif;
     --font-family-inter: 'Inter', sans-serif;
     --border-radius-primary: 16px;
     --border-radius-secondary: 8px;
-    /* Gradient */
-    --background-gradient-banner: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)100%);
+
     /* Background Images */
     --background-image-banner: url("../images/banner-image.png");
     --background-image-popular-tour: url("../images/popular-tour-image.png");
+
     /* Destination Gallery Images */
     --background-image-destination-gallery-maldive: url("../images/maldive-image.png");
     --background-image-destination-gallery-indonesia: url("../images/indonesia-image.png");
@@ -277,3 +291,33 @@ h2 {
 }
 
 /* Our Popular Tour Section Styles End */
+
+/* Destination Gallery Section Styles Start */
+#destination-gallery-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 2px solid #ccc;
+}
+
+#destination-gallery-section .destination-text-container {
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+#destination-gallery-section .destination-gallery-container {
+    width: 100%;
+    border: 2px solid blue;
+}
+
+#destination-gallery-section .destination-gallery-container .destination-image {
+    height: 50px;
+    width: 50px;
+    border: 1px solid blueviolet;
+
+}
+
+/* Destination Gallery Section Styles End */

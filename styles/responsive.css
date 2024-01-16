@@ -78,7 +78,7 @@
         max-width: 480px;
     }
 
-    /* Popular Tour Responsive Section */
+    /* Popular Tour Responsive Section Start*/
     #popular-tours-section {
         height: auto;
         margin: 24px auto;
@@ -99,6 +99,15 @@
         height: 342px;
         width: 100%;
     }
+
+    /* Popular Tour Responsive Section End*/
+
+    /* Destination Gallery Responsive Section Start */
+    #destination-gallery-section {
+        margin-bottom: var(--gap-mobile);
+    }
+
+    /* Destination Gallery Responsive Section End */
 }
 
 /* For Tablets */
@@ -133,7 +142,7 @@
         display: inline;
     }
 
-    /* Banner Responsive */
+    /* Banner Responsive Start */
     #banner-container p {
         width: 93.413%;
         max-width: 851px;
@@ -147,9 +156,15 @@
         /* padding: 16px; */
     }
 
-    /* Popular Tour Responsive Section */
+    /* Banner Responsive End*/
+
+    /* Popular Tour Responsive Section Start */
     #popular-tours-section .popular-tours-text-container .popular-tours-description-footer-text {
         margin-bottom: 28px;
     }
 
+    /* Popular Tour Responsive Section End */
+
+    /* Destination Gallery Responsive Section Start */
+    /* Destination Gallery Responsive Section End */
 }
