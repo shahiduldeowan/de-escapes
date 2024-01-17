@@ -416,6 +416,7 @@ h2 {
 #choose-section .choose-grid-item {
     height: 284px;
     border-radius: var(--border-radius-primary);
+    padding: 32px;
 }
 
 .choose-item1 {
@@ -437,6 +438,26 @@ h2 {
     grid-row: 2;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+#choose-section .choose-grid-container .choose-item-image-container {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 32px;
+}
+
+#choose-section .choose-grid-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#choose-section .choose-grid-container h3 {
+    color: var(--secondary-color);
+    font-size: var(--font-size-section-title);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 16px;
+
+
 }
 
 /* Choose Section Styles End */
