@@ -270,5 +270,15 @@
 
     /* Popular Tour Responsive Section End */
 
+    /* Choose Us Section Responsive Start */
+    #choose-section .choose-text-container {
+        width: 700px;
+    }
 
+    #choose-section .choose-grid-item {
+        height: 300px;
+        padding: 20px;
+    }
+
+    /* Choose Us Section Responsive End */
 }
