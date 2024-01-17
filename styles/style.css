@@ -51,6 +51,9 @@
     /* Deals & Discount Images */
     --background-image-deals-discount-image-01: url("../images/deals-discount-image-01.png");
     --background-image-deals-discount-image-02: url("../images/deals-discount-image-02.png");
+
+    /* Newsletter section image */
+    --background-image-newsletter: url("../images/newsletter-section-image.png");
 }
 
 * {
@@ -109,6 +112,10 @@ h2 {
 .common-button-font-style {
     font-size: var(--font-size-price);
     font-weight: var(--font-weight-bold);
+}
+
+.horizontal-line {
+    border: 1px solid rgba(19, 19, 24, 0.10);
 }
 
 /* Navbar Styles Start */
@@ -564,3 +571,106 @@ h2 {
 }
 
 /* Deals & Discounts Styles End */
+
+/* Newsletter Section Styles Start */
+#newsletter-section {
+    height: 422px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+#newsletter-section .newsletter-input-container {
+    width: 40.5128%;
+    max-width: 474px;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius-primary);
+    padding: 40px;
+}
+
+#newsletter-section .newsletter-input-container h3 {
+    margin-bottom: 16px;
+}
+
+#newsletter-section .newsletter-input-container hr {
+    margin: 24px 0;
+}
+
+#newsletter-section .newsletter-input-container .newsletter-input-item-size {
+    height: 52px;
+    width: 100%;
+    border-radius: var(--border-radius-secondary);
+    border: 0;
+    outline: 0;
+}
+
+#newsletter-section .newsletter-input-container input[type="text"] {
+    border: 0;
+    outline: 0;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+}
+
+#newsletter-section .newsletter-input-container button {
+    margin-top: 8px;
+}
+
+#newsletter-section .newsletter-image-container {
+    width: 57.4358%;
+    max-width: 672px;
+}
+
+#newsletter-section .newsletter-image-container .newsletter-inner-image-container {
+    background-image: var(--background-image-newsletter);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--border-radius-primary);
+    position: relative;
+}
+
+#newsletter-section .newsletter-image-container .newsletter-image-inner-text-container {
+    width: 324px;
+    height: 120px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    bottom: 55px;
+    right: 16px;
+    transform: rotate(-19.628deg);
+    border-radius: var(--border-radius-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter-section .newsletter-image-container .newsletter-image-inner-text-container p {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-normal);
+}
+
+#newsletter-section .newsletter-image-container .newsletter-image-inner-text-container h3 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+}
+
+/* Newsletter Section Styles End */
+
+
+/* Footer Styles Start */
+#footer {
+    width: 100%;
+    height: 502px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+/* Footer Styles End */
