@@ -213,6 +213,52 @@
     }
 
     /* Choose Us Section Responsive End */
+
+    /* Deals & Discount Responsive Start */
+    #deals-discount-section {
+        margin-bottom: 24px;
+    }
+
+    #deals-discount-section .deals-discount-text-container {
+        width: 95.357%;
+        max-width: 534px;
+    }
+
+    #deals-discount-section .deals-discount-place-image-container {
+        gap: 16px;
+        margin: 16px auto;
+    }
+
+    #deals-discount-section .deals-discount-place-image-container .deals-discount-place-image-item {
+        padding: 16px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #deals-discount-section .deals-discount-place-image-container .deals-discount-image-inner-card {
+        height: auto;
+        width: 100%;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #deals-discount-section .deals-discount-image-inner-card .discount-inner-card-header {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #deals-discount-section .deals-discount-image-inner-card .discount-inner-card-main h4 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    #deals-discount-section .see-all-packages-button-container {
+        display: none;
+    }
+
+    /* Deals & Discount Responsive End */
 }
 
 /* For Tablets */
@@ -281,4 +327,20 @@
     }
 
     /* Choose Us Section Responsive End */
+
+    /* Deals & Discount Responsive Start */
+    #deals-discount-section .deals-discount-place-image-container .deals-discount-place-image-item {
+        padding: 70px 50px 60px 70px;
+    }
+
+    #deals-discount-section .deals-discount-place-image-container .deals-discount-image-inner-card {
+        width: 75%;
+        padding: 24px;
+    }
+
+    #deals-discount-section .deals-discount-image-inner-card .discount-inner-card-main {
+        margin: 24px 24px 24px 0;
+    }
+
+    /* Deals & Discount Responsive End */
 }
