@@ -299,6 +299,32 @@
     }
 
     /* Newsletter Section Responsive End */
+
+    /* Footer Responsive Start */
+    #footer {
+        height: 420px;
+        padding: 33.2px 0;
+    }
+
+    #footer .footer-container {
+        width: 85.3333%;
+        max-width: 512px;
+    }
+
+    #footer .footer-logo-container .img-container {
+        height: 33.516px;
+        width: 28.724px;
+    }
+
+    #footer .footer-logo-container h3 {
+        font-size: 1.2464rem;
+    }
+
+    #footer .copy-right {
+        font-size: 0.875rem;
+    }
+
+    /* Footer Responsive End */
 }
 
 /* For Tablets */
